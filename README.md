@@ -11,10 +11,10 @@ the project contains the short form of many of daily used command like some of g
   All done!
   <strong>For gpush(substitute of git push)</strong><br>
   Go to you desired repository and type "gpush" in command prompt it directly pushes to your github.<br>
-  <strong>For <i>install</i> (substitute of sudo install <package_name>)</strong><br>
-  Simply type <i>install <package_name></i>.that's it NO PASSWORD.<br>
+  <strong>For <i>install</i> (substitute of sudo install **package_name**)</strong><br>
+  Simply type <i>install **package_name**</i>.that's it NO PASSWORD.<br>
   <strong>For any sudo command </strong><br>
-  Type <i>su <command></i> . Cool,no password as in case of sudo.<br>
+  Type <i>su **command**</i> . Cool,no password as in case of sudo.<br>
   These scripts make use of your username and password saved on time in script.<br>
 
 
