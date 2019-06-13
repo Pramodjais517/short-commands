@@ -1,6 +1,6 @@
 #! /usr/bin/env python
 
-password="mr.stark"
+password=""
 import sys,os
 if len(sys.argv)==1:
     os.system("echo \"Enter any valid command\"")
