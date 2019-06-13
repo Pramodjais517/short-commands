@@ -1,0 +1,11 @@
+#! /usr/bin/env python
+
+password="mr.stark"
+import sys,os
+if len(sys.argv)==1:
+    os.system("echo \"Enter any valid command\"")
+else:
+    command=""
+    for i in range(1,len(sys.argv)):
+    	command+=sys.argv[i]+" "    
+    os.system("echo %s | sudo -S %s"%(password,command))

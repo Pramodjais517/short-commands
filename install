@@ -1,0 +1,9 @@
+#! /usr/bin/env python
+
+password="mr.stark"
+import sys,os
+if len(sys.argv)==1:
+    os.system("echo \"Enter any package to install\"")
+else:
+    args=sys.argv[1]
+    os.system("echo %s | sudo -S apt install %s"%(password,args))

@@ -1,7 +1,7 @@
 #! /usr/bin/env python
 import sys,os,subprocess
-username = "mr-star-k"
-password = "pramod%4012345"
+username = "StarkPramod"
+password = "stark%4012345"
 os.system("git add .")
 cmsg = input("enter commit message: ")
 os.system("git commit -m \"%s\""%(cmsg))
